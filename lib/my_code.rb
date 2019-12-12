@@ -15,10 +15,11 @@ def reduce(source_array, num1 = nil)
     sv = num1
     index = 0 
   else
-    num1 = source_array[0]
+    sv = source_array[0]
     index = 1
   end
   
   while index < source_array.length
-    yield(sv)
+    yield(sv, source_array[index])
+  end
 end

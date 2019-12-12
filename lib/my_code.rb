@@ -10,9 +10,9 @@ def map(source_array)
     result
 end
 
-def reduce(source_array, num1 = nil)
-  if num1
-    sv = num1
+def reduce(source_array, sv = nil)
+  if sv
+    num1 = sv
     index = 0 
   else
     sv = source_array[0]

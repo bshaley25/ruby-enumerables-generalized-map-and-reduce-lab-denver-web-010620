@@ -12,7 +12,7 @@ end
 
 def reduce(source_array, sv = nil)
   if sv
-    num1 = sv
+    sum = sv
     index = 0 
   else
     sv = source_array[0]

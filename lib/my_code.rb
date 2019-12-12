@@ -20,5 +20,5 @@ def reduce(source_array, num1 = nil)
   end
   
   while index < source_array.length
-    
+    yield(sv)
 end

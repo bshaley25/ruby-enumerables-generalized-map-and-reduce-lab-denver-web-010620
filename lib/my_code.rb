@@ -15,7 +15,7 @@ def reduce(source_array, sv = nil)
     sum = sv
     index = 0 
   else
-    sv = source_array[0]
+    sum = source_array[0]
     index = 1
   end
   

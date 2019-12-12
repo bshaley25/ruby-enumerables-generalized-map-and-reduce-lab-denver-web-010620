@@ -20,6 +20,8 @@ def reduce(source_array, num1 = nil)
   end
   
   while index < source_array.length
-    yield(sv, source_array[index])
+   sum = yield(sv, source_array[index])
+   index += 1 
+   sum
   end
 end

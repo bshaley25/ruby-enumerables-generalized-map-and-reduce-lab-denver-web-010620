@@ -10,3 +10,4 @@ def map(source_array)
     result
 end
 
+def reduce(source_array, num = nil)
